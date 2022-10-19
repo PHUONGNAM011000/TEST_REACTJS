@@ -1,0 +1,25 @@
+.wallet {
+  min-width: 142px;
+  height: 133px;
+
+  background: linear-gradient(
+    137.08deg,
+    rgba(255, 255, 255, 0.6) 4.85%,
+    rgba(255, 255, 255, 0.780737) 34.75%,
+    #ffffff 93.98%
+  );
+  border: 1px solid #004dff;
+  box-shadow: 0px 10px 20px rgba(85, 76, 255, 0.2);
+  backdrop-filter: blur(30px);
+  border-radius: 22px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}

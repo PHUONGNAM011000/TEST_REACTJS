@@ -1,0 +1,10 @@
+.list-wallet {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.list-wallet li {
+  margin-right: 32px;
+}

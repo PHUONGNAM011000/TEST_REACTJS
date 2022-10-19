@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.info-user {
+  display: flex;
+}
+
+.avatar {
+  margin-right: 8px;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.list-icon {
+  display: flex;
+  width: 125px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  background: #eae9fb;
+  box-shadow: 0px 10px 20px rgba(41, 39, 77, 0.1);
+  backdrop-filter: blur(11px);
+  border-radius: 20px;
+  padding: 12px;
+}

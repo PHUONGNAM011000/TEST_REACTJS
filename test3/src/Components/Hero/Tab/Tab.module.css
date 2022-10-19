@@ -1,0 +1,26 @@
+.tab {
+  margin-bottom: 1rem;
+}
+
+.list-tab {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list-tab li {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  background: #004dff;
+  border-radius: 2px;
+  width: 32px;
+  height: 3px;
+  margin-top: 8px;
+  visibility: hidden;
+}
